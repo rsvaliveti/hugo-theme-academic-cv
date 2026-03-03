@@ -2,115 +2,309 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display:  Valiveti
+  given: Radhakrishna
+  family: Valiveti
+  alternate: ''
+  pronunciation: ''
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: System Architect
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a system architect in the hardware architecture group at Nokia. 
+  I was previously employed at Infinera, which was acquired by Nokia in March 2025.
+  In this role, I have been responsible for the OTN features 
+  (e.g. client mappings,ODU multiplexing, protection switching) 
+  in several INFN product families (e.g. DTN, DTN-X, XT, GX). 
+  This activity involves examining the end-to-end
+  services in a top-down fashion, starting at the network level, and then using
+  this high-level view to derive requirements for (a) the Network Element as a
+  whole, and (b) the datapath ASICs/FPGAs that implement these features. In
+  deriving these requirements, I have used the standards/recommendations
+  developed by ITU-T/IEEE as guidance, and then expanded on these to generate
+  detailed guidance for ASIC/FPGA designers. As part of this activity, I have
+  tracked & contributed to ITU-T SG15 Q11 activities related to OTN
+  Signals/Formats/Equipment.
+
+  I have developed requirements to support Layer 1 encryption services in all the
+  INFN datapath ASICs, and DSPs. This activity too, involved a top-down
+  examination of the end-to-end view of encrypted services (e.g. datapath AES
+  encryption, overheads, key exchange, key switches etc.), and then determining
+  the functions/aspects which will be implemented by the ASICs.
+
+  I have had extensive experience with the development of SONET networks and
+  network elements, as well as Packet Optical Network elements that support both
+  TDM, and packet services. I started my career developing software for various
+  protocol stacks (e.g. X.21, X.75, HDLC/BiSync, OSI Layers 2-5), and then
+  gradually migrated to roles that define architecture for products/components. 
+
+  My graduate work was in the area of adaptive data structures. This work, builds
+  on the concepts from Learning Automata, and examines the effectiveness of
+  heuristics (e.g. Move-to-Front, Transpose) which organize data structures with
+  each access, so as to (hopefully) optimize future accesses.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Nokia Optical Networking
+    url: https://www.nokia.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:rsvaliveti@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/rsvaliveti
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/rvaliveti/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=KedBRY8AAAAJ&hl=en
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Optical Networking
+  - Machine Learning
+  - Functional Models
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: Ph.D. (Electrical Engineering)
+    institution: Carleton University
+    start: 1987-09-01
+    end: 1991-01-31
+    summary: |2-
+          * Thesis: Learning Algorithms for Data Storage & Retrieval
+          * Supervisor: Prof. B. John Oommen
+#    button:
+#      text: 'Read Thesis'
+#      url: '/thesis.pdf'
+#      icon: hero/arrow-down-tray
+  - degree: M. Sc. (Computer Science)
+    institution: McGill University
+    start: 1979-01-01
+    end: 1981-04-01
+    summary: |2-
+          * Thesis: A Communications Controller for Small-Computer Networks
+          * Supervisor: Prof. Kasi Ananthanarayanan
+#    button:
+#      text: 'Read Thesis'
+#      url: '/thesis.pdf'
+#      icon: hero/arrow-down-tray
+  - degree: B. Tech. (Electronics and Electrical Communication)
+    institution: Indian Institute of Technology
+    start: 1973-07-01
+    end: 1978-05-01
+    summary: |2-
+          * Undergraduate Project: Symbolic Circuit Analysis
+#    button:
+#      text: 'Read Thesis'
+#      url: '/thesis.pdf'
+#      icon: hero/arrow-down-tray
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+  - role: System Architect (Distinguished Engineer)
+    org: Nokia Corp
+    #company_url: 'https://www.nokia.com'
+    #company_logo: ''
+    start: 2006-10-30
+    end: 
+    summary: |2-
+        * Developed (white-box) requirements for various generations of Infinera ASICs in
+              these areas: G.709 OTN tributary interfaces, FlexE, FlexO, Infinera Proprietary
+              Signals/Formats (used on the line-side interfaces), Overhead processing, Alarm
+              Propagation. Supported the ASIC development team through all stages of
+              development to ensure full compliance to applicable standards.
+        * <br/>
+        * Developed requirements for Layer 1 encryption (AES-GCM, AES-CTR modes) in INFN
+              ASICs: at the ODU layer (in mapper ASIC) & bulk encryption (DSP ASIC). These
+              requirements addressed the following aspects: algorithmic compliance, support
+              for minimizing the cryptographic boundary (for FIPS 140-2 validation).
+        * <br/>
+        * Specified the architecture for supporting protection switching schemes (e.g.,
+              1+1 SNCP, Y-cable) in Infinera transponders and muxponders. This involved the
+              timely reporting of defects to the protection FSMs, FPGA assist to minimize the
+              switching time.
+        * <br/>
+        * Developed requirements for FEC Support for OC3/1GE Optical Supervisory Channels
+        * <br/>
+        * Developed the End-2-End mechanism for Shared Mesh Protection (SMP) for ODU
+              connections. This mechanism has been presented in various contributions to
+              ITU-T SG15 Q9 (OTN Equipment). This work contributed to the ITU-T
+              recommendation G.783.3.
+        * <br/>
+        * Defined the mechanism to support hitless ODUFlex resizing (specific to DTN-X
+              networks). Working with ASIC & Software teams to get the mechanism implemented.
+        * <br/>
+        * Developed requirements related to control channel realization (e.g. trib & line
+              side GCC channels) for several generations of Infinera Network Elements.
+        * <br/>
+        * Developed DTN-X Network Architecture Specification. This specification takes a
+              top-down view of DTN-X networks, and contains an in-depth coverage of these
+              aspects: Layers (i.e. Signals, Formats), Adaptations, OTN atomic function
+              realization, and Defect propagation. This document is used as the basis to
+              derive requirements for the ASICs/FPGAs.
+        * <br/>
+        * Developed DTN Network Element requirements for these areas: GMPLS, L1VPN,
+              Datapath recovery (protection, and restoration).
+        * <br/>
+  - role: System Architect
+    org: Fujitsu Network Communications
+    #company_url: 'https://www.fujitsu.com/us/products/network/'
+    #company_logo: ''
+    start: 2005-05-10
+    end: 2006-10-01
+    summary: |2-
+        * Participated in the architecture definition of the FW9500 hybrid platform that
+              supported TDM & Packet services (e.g. Point-to-Point Ethernet, VPLS) based on
+              MPLS Pseudowires
+        * <br/>
+        * Developed System Level Requirements for VPLS/H-VPLS, Control Plane High-
+              Availability.
+        * <br/>
+  - role: Contractor (SW development)
+    org: Nortel
+    #company_url: 'https://www.nortel.com'
+    #company_logo: ''
+    start: 2003-12-01
+    end: 2005-05-01
+    summary: |2-
+        * RSVP-TE for GGSN node: Wrote Functional Spec, Detailed Design & Designer Test
+              plan. Worked on design changes support for a redundant control processor.
+        * <br/>
+        * BGP/MPLS VPNs for GGSN node: Wrote the Designer Test plan, Added support for
+              MPLS & VRF historical statistics.
+        * <br/>
+  - role: Contractor (SW development)
+    org: Avici
+    #company_url: ''
+    #company_logo: ''
+    start: 2003-10-01
+    end: 2003-11-20
+    summary: |2-
+        * Resolved software issues related to: PPP, SONET Link Aggregation, MPLS LSP
+              Protection (Fast Reroute).
+        * <br/>
+  - role: Contractor (Systems Arch)
+    org: Ciena
+    #company_url: 'https://www.ciena.com'
+    #company_logo: ''
+    start: 2002-12-24
+    end: 2003-05-31
+    summary: |2-
+        * Specified the functional requirements for the CoreDirector features: Connection
+              Test Access, Connection Loopback, OSI/DCC, 1GE/10GE tunneling with SONET/SDH
+              VCAT/LCAS).
+        * <br/>
+  - role: Systems Architect
+    org: Fujitsu Network Communications
+    #company_url: 'https://www.fujitsu.com/us/products/network/'
+    #company_logo: ''
+    start: 1998-05-08
+    end: 2002-08-28
+    summary: |2-
+        * Part of the team tasked with developing the architecture for the first
+              TDM/Packet Hybrid. Primarily responsible for Layer 2 and Layer 3 VPN support
+              over MPLS networks.
+        * <br/>
+        * Investigated protection of Point-to-Multipoint (P2MP, or multicast) MPLS LSPs,
+              for the purposes of offering a fully protected TLS service.
+        * <br/>
+        * Specified the optical UNI (O-UNI) interface between an MPLS LER (Label Edge
+              Router), and the Optical Network Element (ONE).
+        * <br/>
+        * Specification of Network Element Management Information models, and protocol
+              specific realizations (in terms of TL-1 and SNMP)
+        * <br/>
+  - role: Member of Scientific Staff
+    org: Nortel
+    #company_url: 'https://www.nortel.com'
+    #company_logo: ''
+    start: 1984-06-01
+    end: 1998-05-01
+    summary: |2-
+        * Part of a team defining the End-to-end architecture of a system offering
+              Broadband access.
+        * <br/>
+        * Developed various features for the HFC Cable Modem. E.g. Lightweight ATM
+              signaling protocol, IP NAT (to support multiple attached PCs), Software Upgrade
+        * <br/>
+        * Designed & Developed software for the following layers in the OSI Stack: LAPD
+              (with QoS), Layer 3 (CLNP, IS-IS, ES-IS), and Layer 5 (Session Layer).
+              Implemented performance enhancements at Layers 2 through 4 of the OSI stack
+        * <br/>
+        * Implemented various STREAMs modules (e.g. TPI, Line Discipline Module, Serial
+              Drivers)
+        * <br/>
+        * Implemented a bridge for interconnecting IBM Token Ring LANs via a Frame Relay
+              WAN
+        * <br/>
+        * Analysis, Design, and Implementation of transparent access to (XMS based)
+              remote file servers (via X.25 networks), file transfer utilities.
+        * <br/>
+  - role: SW Designer
+    org: Micom
+    #company_url: ''
+    #company_logo: ''
+    start: 1981-04-01
+    end: 1984-06-01
+    summary: |2-
+        * Designed and Implemented software for data communication protocols (e.g.
+              BISYNC, SDLC, ISO Transport Layer 4/0, Session/Transport layers for Teletext
+              service)
+        * <br/>
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Infinera Spectrum Award
+    url: ''
+    date: 2024-09-01
+    awarder: Infinera CEO
+    #icon: coursera
+    summary: Part of the team that solved a 400GE interop issue between customer network router & INFN muxponder
     icon: hero/trophy
+  - title: Infinera President's Award
+    url: ''
+    date: 2009-05-01
+    awarder: Infinera President
+    #icon: coursera
+    summary: 
+    icon: hero/trophy
+  - title: Carleton University Medal for Outstanding Graduate Work at the Ph.D. level
+    url: ''
+    date: 1991-05-01
+    awarder: Carleton University
+    #icon: coursera
+    summary: Awarded the best thesis of the year
+    icon: hero/trophy
+  - title: Post-Graduate Scholarship from Nortel
+    url: ''
+    date: 1987-09-01
+    awarder: Nortel
+    #icon: coursera
+    summary: Awarded for the duration of the Ph.D. program
+    icon: hero/trophy
+  - title: Post-Graduate Scholarship from the Natural Sciences and Engineering Research Council (NSERC) of Canada
+    url: ''
+    date: 1987-09-01
+    awarder: NSERC
+    #icon: coursera
+    summary: Awarded for the duration of the Ph.D. program
+    icon: hero/trophy
+  - title: President of India silver medal
+    url: ''
+    date: 1978-05-01
+    awarder: IIT Kharagpur
+    #icon: coursera
+    summary: Awarded for best academic performance in the graduating batch of the B. Tech program in the Electronics & Communication Engineering (ECE) department
+    icon: hero/trophy
+  - title: Stood fourth in the state of West Bengal in Higher Secondary Examination
+    url: ''
+    date: 1973-06-01
+    awarder: West Bengal HS Board
+    #icon: coursera
+    summary: The state recognizes the top ten students who appeared for the Higher Secondary Board Examination every year.
+    icon: hero/trophy
+
+skills:
+
+languages:
+#  - name: English
+#    level: 5
+#    label: Native
